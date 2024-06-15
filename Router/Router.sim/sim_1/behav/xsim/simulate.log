@@ -1,0 +1,181 @@
+Time resolution is 1 ps
+ ******************* Start of testcase ****************
+ 0 : Environment : created env object
+ 0 : Environment : start of run() method
+ 0 : Environment : start of build() method
+ 0 : Environment : end of build() method
+ 0 : Environment : start of reset() method
+ 30 : Environment : end of reset() method
+ 30 : Environment : start of cfg_dut() method
+ 30 : Environment : end of cfg_dut() method
+ 30 : Environment : start of start() method
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: f, Destination Address: 5
+Payload: 
+  3 : 7c 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: e, Destination Address: a
+Payload: 
+  3 : ff 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: d, Destination Address: 4
+Payload: 
+  3 : 9d 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: c, Destination Address: 1
+Payload: 
+  3 : e1 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: b, Destination Address: 5
+Payload: 
+  3 : 3f 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: a, Destination Address: b
+Payload: 
+  3 : d3 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 9, Destination Address: 6
+Payload: 
+  3 : 97 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 8, Destination Address: a
+Payload: 
+  3 : e4 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 7, Destination Address: 3
+Payload: 
+  3 : 68 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 6, Destination Address: 2
+Payload: 
+  3 : d8 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 5, Destination Address: 2
+Payload: 
+  3 : 69 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 4, Destination Address: 5
+Payload: 
+  3 : 9d 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 3, Destination Address: c
+Payload: 
+  3 : ce 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 2, Destination Address: 9
+Payload: 
+  3 : a4 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 1, Destination Address: 7
+Payload: 
+  3 : 37 
+		-------- END PACKET ---------- 
+
+------ 50 : Driver : Randomization Successes full. ------
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 0, Destination Address: 3
+Payload: 
+  3 : d7 
+		-------- END PACKET ---------- 
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+------ 350 : Driver : Finished Driving the packet with length 8 ------
+
+ 350 : Environment : end of start() method
+ 350 : Environment : start of wait_for_end() method
+
+------ 370 : Receiver : Received Successes full. ------
+------ 390 :  Receiver : Finished  Receiving the packet with length 8 ------
+
+
+ -----390 : Scorebooard : Scoreboard received a packet from receiver -----
+Packets match
+
+pkt_rcv
+		-------- PACKET ---------- 
+Name: Receiver, Source Address: 0, Destination Address: 3
+Payload: 
+  3 : d7 
+		-------- END PACKET ---------- 
+
+pkt_drv
+		-------- PACKET ---------- 
+Name: Driver, Source Address: 0, Destination Address: 3
+Payload: 
+  3 : d7 
+		-------- END PACKET ---------- 
+ 390 : Scoreboard :Packet Matched
+
+------ 590 : Driver : Finished Driving the packet with length 8 ------
+
+------ 590 : Driver : Finished Driving the packet with length 8 ------
+
+------ 590 : Driver : Finished Driving the packet with length 8 ------
+
+------ 590 : Driver : Finished Driving the packet with length 8 ------
+
+------ 830 : Driver : Finished Driving the packet with length 8 ------
+
+ ******************** End of testcase *****************

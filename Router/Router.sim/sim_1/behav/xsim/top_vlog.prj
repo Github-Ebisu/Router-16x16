@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Router.srcs/sources_1/DUT/Router.sv" \
+"../../../../Router.srcs/sources_1/DUT/Logic_out.sv" \
+"../../../../Router.srcs/sources_1/DUT/Logic_in.sv" \
+"../../../../Router.srcs/sources_1/Top/Top.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Global.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Interface.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Scoreboard.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Enviroment.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Packet.sv" \
+"../../../../Router.srcs/sources_1/TestBench/TestCase.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Receiver.sv" \
+"../../../../Router.srcs/sources_1/TestBench/Driver.sv" \
+"../../../../Router.srcs/sources_1/Top/test16.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
